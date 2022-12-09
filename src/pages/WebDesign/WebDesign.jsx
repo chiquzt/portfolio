@@ -42,7 +42,7 @@ function WebDesign() {
                 <div className="fake"></div>
                 <div className="main" id="main">
                     <section>
-                        <div className="card" style={{ columnCount: 2 }}>
+                        <div className="card">
                             {data.imgs.map((v, i) => {
                                 return (
                                     <Card

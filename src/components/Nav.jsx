@@ -6,13 +6,11 @@ import { ReactComponent as Close } from "../images/close.svg";
 
 function Nav() {
     function openNav(e) {
-        console.log("hello");
-        document.querySelector(".navS").style.display = "none";
+        document.querySelector(".navS").style.visibility = "hidden";
         document.querySelector(".menuS").style.display = "block";
     }
     function closeNav(e) {
-        console.log("hello");
-        document.querySelector(".navS").style.display = "block";
+        document.querySelector(".navS").style.visibility = "visible";
         document.querySelector(".menuS").style.display = "none";
     }
 
