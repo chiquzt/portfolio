@@ -15,12 +15,6 @@ function Nav() {
         document.querySelector(".navS").style.display = "block";
         document.querySelector(".menuS").style.display = "none";
     }
-    // const ham = document.querySelector(".hamburger");
-    // console.log(ham);
-    // ham.addEventListener("click", function () {
-    //     console.log(555);
-
-    // });
 
     return (
         <>
@@ -31,7 +25,9 @@ function Nav() {
                             <Link to="/portfolio">About</Link>
                         </li>
                         <li>
-                            <Link to="/illustration">Illustration</Link>
+                            <Link to="/portfolio/illustration">
+                                Illustration
+                            </Link>
                         </li>
                         <li>
                             <Link to="/animebear">Animation - W</Link>

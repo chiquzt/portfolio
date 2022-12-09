@@ -42,7 +42,10 @@ function App() {
                     <Route path="/animesocks" element={<AnimeSocks />} />
 
                     {/* illustration路由 */}
-                    <Route path="/illustration" element={<Illustration />} />
+                    <Route
+                        path="/portfolio/illustration"
+                        element={<Illustration />}
+                    />
 
                     {/* illustarch路由 */}
                     <Route path="illustarch" element={<IllustArch />} />
