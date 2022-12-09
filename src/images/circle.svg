@@ -1,0 +1,15 @@
+<svg
+    viewbox="0 0 100 100"
+    width="42"
+    height="42"
+>
+    <circle
+        cx="50"
+        cy="50"
+        r="48"
+        fill="none"
+        stroke="#ffee54"
+        stroke-width="5"
+        stroke-linecap="round"
+    />
+</svg>

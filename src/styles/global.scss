@@ -1,0 +1,212 @@
+@import './variables.scss';
+
+// scrollbar
+// width 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+
+// Handle
+::-webkit-scrollbar-thumb {
+  background: $primary;
+  border-radius: 50px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary;
+}
+
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    background-size: 100vw;
+    overflow: overlay;
+
+    .container {
+        display: flex;
+        background-color: $bgc-L;
+        width: 100%;
+        // height: 100vh;
+        height: fit-content;
+
+        // navbar底
+        .fake {
+            width: 200px;
+        }
+        
+        // 主要內容
+        .main {
+            width: 100%;
+            height: fit-content;
+            background-color: $bgc-M;
+        }
+      
+    }
+}
+
+
+// nav
+.nav {
+    width: 200px;
+    height: 100vh;
+    background-color: $bgc-N;
+    padding: 0 30px;
+    position: fixed;
+    z-index: 999;
+
+    .menu {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+        li {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+            position: relative;
+
+            .animation-options-wrap {
+              width: 100px;
+              height: 100px;
+              position: absolute;
+              right: -140px;
+              top: 0;
+              transform: translateY(-50%);
+
+              .animation-options {
+                padding: 0 13%;
+                font-size: 18px;
+                font-weight: 400;
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+                line-height: 2.5rem;
+                background-color: #9f93ce;
+                position: relative;
+                box-sizing: border-box;
+
+                &:hover {
+                  box-shadow: 2px 0px 10px #ffee5479;
+                  color: #ffee54;
+                }
+
+                &:hover .svg circle {
+                  opacity: 1;
+                }
+
+                .svg circle{
+                  opacity: 0;
+                  stroke-dasharray: 40, 300;
+                  stroke-linecap: round;
+                  animation: circle-stroke-animation 1.5s linear infinite,
+                      circle-loop 2s linear infinite;
+                  transform-origin: 50%;
+                }
+              }
+              
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                  color: $secondary;
+                  transition: 0.5s;
+              }
+            }
+            
+            .ins{
+              transform: translateY(-15%);
+
+              &:hover path{
+                fill: #b1a5e1;
+                transition: 0.5s ease;
+              }
+            }
+           
+        }
+    }
+}
+.navS {
+  display: none;
+}
+
+//RWD
+@media screen and (max-width: 576px) {
+  .nav {
+      display: none;
+  }
+  .fake {
+    display: none;
+  }
+  .navS {
+      display: block;
+      width: 100%;
+      height: 50px;
+      background-color: #211f28;
+      box-sizing: border-box;
+      position: fixed;
+      z-index: 999;
+
+      .hamburger {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+  }
+
+  .menuS {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    text-align: center;
+    padding-top: 30%;
+    background-color: #211f28;
+    
+    .close {
+      position: absolute;
+      right: 5%;
+      top: 2.5%;
+      transform: translateY(-50%);
+  }
+  
+    li {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 40px 0;
+      letter-spacing: 2px;
+  
+      .optionS {
+        color: white;
+        text-decoration: none;
+
+        &:active{
+          color: $secondary;
+          transition: 0.5s;
+      }
+      }
+    }
+  
+  }
+ 
+
+}
+
+
+
+
+

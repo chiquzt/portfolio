@@ -1,0 +1,48 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    font-weight: 900;
+    font-size: 18px;
+    width: 500px;
+    height: 250px;
+    opacity: 0;
+}
+
+.isVisible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.fade{
+    animation: fadeup 1s linear forwards;
+}
+
+@keyframes fadeup{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

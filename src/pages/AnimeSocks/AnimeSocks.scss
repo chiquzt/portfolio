@@ -1,0 +1,55 @@
+//影片區
+.s-videoarea {
+    height: fit-content;
+
+    //影片
+    .s-videowrap {
+        padding-top: 3%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+
+        .s-video {
+            width: 60%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    }
+
+}
+.cardwrap{
+    padding: 0;
+}
+
+//slider
+.slider {
+    margin-top: 4%;
+    width: 100%;
+}
+.slick-slide {
+    margin: 0 10px;
+
+    img {
+        border-radius: 8px;
+        width: 100%;
+    }
+}
+
+
+//RWD
+@media screen and (max-width: 576px){
+    .s-videoarea {
+        .s-videowrap {
+            padding-top: 20%;
+            height: 40vh;
+    
+            .s-video {
+                width: 90%;
+            }
+        }
+    
+    }
+    .cardwrap{
+        padding: 5%;
+    }
+}

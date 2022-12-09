@@ -1,0 +1,47 @@
+
+
+.videoarea {
+    background: url('../../../src/images/snow.jpg') 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .videowrap {
+        padding-top: 4%;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(#efece8 80%, transparent 80%);
+
+        .video {
+            width: 90%;
+            height: 68.58%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    }
+}
+.cardwrap{
+    padding: 0;
+}
+
+//RWD
+@media screen and (max-width: 576px){
+    .videoarea {
+        background: url('../../../src/images/snow.jpg') 0 0 no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    
+        .videowrap {
+            padding-top: 20%;
+            height: 55vh;
+            background: linear-gradient(#efece8 80%, transparent 80%);
+    
+            .video {
+                height: 70%;
+            }
+        }
+    }
+    .cardwrap{
+        padding: 5%;
+    }
+}

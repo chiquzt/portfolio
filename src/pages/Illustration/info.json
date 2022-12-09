@@ -1,0 +1,46 @@
+{
+    "cards":[
+        {
+            "id":1,
+            "title":"Architecture",
+            "pic":"images/arch/illust11.jpg",
+            "tags":"#watercolor #handdrawn",
+            "link":"/illustarch"
+        },
+        {
+            "id":2,
+            "title":"Food Illustration",
+            "pic":"images/food/illust72.jpg",
+            "tags":"#watercolor #dessert",
+            "link":"/illustfood"
+        },
+        {
+            "id":3,
+            "title":"The Princess & The Pea",
+            "pic":"images/pea/p01.jpg",
+            "tags":"#digitalart #animation",
+            "link":"/illustpea"
+        },
+        {
+            "id":4,
+            "title":"Character",
+            "pic":"images/cd/cd00.jpg",
+            "tags":"#digitalart #girl #linedarwing",
+            "link":"/illustcharacter"
+        },
+        {
+            "id":5,
+            "title":"Bear",
+            "pic":"images/bear/bear01.jpg",
+            "tags":"#pencil #handdrawn #digitalart",
+            "link":"/illustbear"
+        },
+        {
+            "id":6,
+            "title":"Digital Art",
+            "pic":"images/digital/d01.jpg",
+            "tags":"#food #package #flyer",
+            "link":"/illustdigital"
+        }
+    ]
+}

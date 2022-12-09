@@ -1,0 +1,51 @@
+.scroll {
+    display: flex;
+    width: fit-content;
+    position: fixed;
+    bottom: 2%;
+    right: 1.5%;
+
+    //  scroll動畫
+    .line {
+        width: 0.2vh;
+        height: 10vh;
+        margin-right: 1vh;
+        position: relative;
+        overflow: hidden;
+
+        .line-anime {
+            width: 0.4vh;
+            height: 3vh;
+            background-color: #b1a5e1;
+            position: absolute;
+            top: 0;
+            animation: scroll 1.5s ease infinite;
+        }
+
+    } 
+
+    // 文字
+    .scroll-words {
+        font-size: 12px;
+        writing-mode: vertical-lr;
+        letter-spacing: 3px;
+    }
+}
+
+
+@keyframes scroll {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+//RWD
+@media screen and (max-width: 576px) {
+    .scroll {
+        right: 4%;
+    }
+
+}

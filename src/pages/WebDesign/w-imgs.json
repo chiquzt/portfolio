@@ -1,0 +1,20 @@
+{
+    "imgs":[
+    {
+        "id": 1,
+        "pic": "images/web/web01.jpg"
+    },
+    {
+        "id": 2,
+        "pic": "images/web/web02.jpg"
+    },
+    {
+        "id": 3,
+        "pic": "images/web/web03.jpg"
+    },
+    {
+        "id": 4,
+        "pic": "images/web/web04.png"
+    }
+    
+]}

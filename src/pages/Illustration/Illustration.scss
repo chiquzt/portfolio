@@ -1,0 +1,173 @@
+@import "../../styles/variables.scss";
+
+.illust-cardwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+    padding: 4% 0;
+
+
+    .illust-card {
+        width: 19vw;
+        height: 19vw;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        margin: 2% 3%;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 20vw;
+            height: 20vw;
+            border-radius: 15px;
+            border: 3px solid $primary;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &:hover:after {
+            border: 3px solid $secondary;
+            transition: 0.3s;
+        }
+        
+        .illust-btn {
+            padding: 1vh 1.5vh;
+            letter-spacing: 2px;
+            color: $bgc-N;
+            background: $secondary;
+            border-radius: 5px;
+            box-shadow: 0.3vh 0.3vh #211f28b3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(-2vh,-55%);
+            z-index: 99;
+
+            &:hover {
+                background: $primary;
+                transition: 0.2s;
+                color: white;
+                transform: translate(-10%,-45%);
+
+            }
+            
+        }
+        
+
+        .illust-img {
+            display: flex;
+            height: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+
+
+            img {
+                width: 100%;
+                object-fit: contain;
+                transform: translateY(-3%);
+            }
+        }
+
+        .illust-tag {
+            width: 100%;
+            background-color: $primary;
+            border-radius: 0px 0px 10px 10px;
+            height: 10%;
+            color: white;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 1.5px;
+            padding: 2.5% 3%;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}
+
+//RWD
+@media screen and (max-width: 576px){
+    .illust-cardwrap {
+        padding-top: 25%;
+        display: block;
+
+        .illust-card {
+            width: 70vw;
+            height: 70vw;
+            margin: 0 auto 20% auto;
+    
+            &:after {
+                width: 75vw;
+                height: 75vw;
+            }
+    
+            &:active:after {
+                border: 3px solid $secondary;
+                transition: 0.3s;
+            }
+            
+            .illust-btn {
+                padding: 1vh 1.5vh;
+                letter-spacing: 2px;
+                color: $bgc-N;
+                background: $secondary;
+                border-radius: 5px;
+                box-shadow: 0.3vh 0.3vh #211f28b3;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translate(-5vw,-55%);
+                z-index: 99;
+    
+                &:hover {
+                    background: $primary;
+                    transition: 0.2s;
+                    color: white;
+                    transform: translate(-10%,-45%);
+    
+                }
+                
+            }
+            
+    
+            .illust-img {
+                display: flex;
+                height: 100%;
+                border-radius: 10px;
+                overflow: hidden;
+    
+    
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                    transform: translateY(-3%);
+                }
+            }
+    
+            .illust-tag {
+                width: 100%;
+                background-color: $primary;
+                border-radius: 0px 0px 10px 10px;
+                height: 10%;
+                color: white;
+                font-weight: 300;
+                font-size: 14px;
+                letter-spacing: 1.5px;
+                padding: 2.5% 3%;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
