@@ -177,6 +177,9 @@ display: none;
     display: none;
     text-align: center;
     padding-top: 30%;
+    position: fixed;
+    z-index: 999;
+    opacity: .9;
     background-color: #211f28;
     
     .close {
