@@ -25,28 +25,22 @@ function Nav() {
                             <Link to="/">About</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/illustration">
-                                Illustration
-                            </Link>
+                            <Link to="/illustration">Illustration</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/animebear">Animation - W</Link>
+                            <Link to="/animebear">Animation - W</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/animesocks">
-                                Animation - U
-                            </Link>
+                            <Link to="/animesocks">Animation - U</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/landingpage">
-                                Landing Page
-                            </Link>
+                            <Link to="/landingpage">Landing Page</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/webdesign">Web Design</Link>
+                            <Link to="/webdesign">Web Design</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio/banner">Banner</Link>
+                            <Link to="/banner">Banner</Link>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/abbillust/">
@@ -66,32 +60,32 @@ function Nav() {
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/portfolio/illustration">
+                        <Link className="optionS" to="/illustration">
                             Illustration
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/portfolio/animebear">
+                        <Link className="optionS" to="/animebear">
                             Animation - W
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/portfolio/animesocks">
+                        <Link className="optionS" to="/animesocks">
                             Animation - U
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/portfolio/landingpage">
+                        <Link className="optionS" to="/landingpage">
                             Landing Page
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/portfolio/webdesign">
+                        <Link className="optionS" to="/webdesign">
                             Web Design
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/portfolio/banner">
+                        <Link className="optionS" to="/banner">
                             Banner
                         </Link>
                     </li>
