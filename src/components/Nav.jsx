@@ -22,7 +22,7 @@ function Nav() {
                 <div className="nav">
                     <ul className="menu">
                         <li>
-                            <Link to="/portfolio">About</Link>
+                            <Link to="">About</Link>
                         </li>
                         <li>
                             <Link to="/portfolio/illustration">
@@ -30,19 +30,23 @@ function Nav() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/animebear">Animation - W</Link>
+                            <Link to="/portfolio/animebear">Animation - W</Link>
                         </li>
                         <li>
-                            <Link to="/animesocks">Animation - U</Link>
+                            <Link to="/portfolio/animesocks">
+                                Animation - U
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/landingpage">Landing Page</Link>
+                            <Link to="/portfolio/landingpage">
+                                Landing Page
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/webdesign">Web Design</Link>
+                            <Link to="/portfolio/webdesign">Web Design</Link>
                         </li>
                         <li>
-                            <Link to="/banner">Banner</Link>
+                            <Link to="/portfolio/banner">Banner</Link>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/abbillust/">

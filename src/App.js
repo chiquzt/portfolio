@@ -30,16 +30,22 @@ function App() {
                     {/* =========================== */}
 
                     {/* home路由 */}
-                    <Route path="/portfolio" element={<MainPage />} />
+                    <Route path="" element={<MainPage />} />
 
                     {/* banner路由 */}
-                    <Route path="/banner" element={<Banner />} />
+                    <Route path="/portfolio/banner" element={<Banner />} />
 
                     {/* animebear路由 */}
-                    <Route path="/animebear" element={<AnimeBear />} />
+                    <Route
+                        path="/portfolio/animebear"
+                        element={<AnimeBear />}
+                    />
 
                     {/* animesocks路由 */}
-                    <Route path="/animesocks" element={<AnimeSocks />} />
+                    <Route
+                        path="/portfolio/animesocks"
+                        element={<AnimeSocks />}
+                    />
 
                     {/* illustration路由 */}
                     <Route
@@ -48,31 +54,52 @@ function App() {
                     />
 
                     {/* illustarch路由 */}
-                    <Route path="illustarch" element={<IllustArch />} />
+                    <Route
+                        path="/portfolio/illustarch"
+                        element={<IllustArch />}
+                    />
 
                     {/* illustfood路由 */}
-                    <Route path="illustfood" element={<IllustFood />} />
+                    <Route
+                        path="/portfolio/illustfood"
+                        element={<IllustFood />}
+                    />
 
                     {/* illustcharacter路由 */}
                     <Route
-                        path="illustcharacter"
+                        path="/portfolio/illustcharacter"
                         element={<IllustCharacter />}
                     />
 
                     {/* illustbear路由 */}
-                    <Route path="illustbear" element={<IllustBear />} />
+                    <Route
+                        path="/portfolio/illustbear"
+                        element={<IllustBear />}
+                    />
 
                     {/* illustpea路由 */}
-                    <Route path="illustpea" element={<IllustPea />} />
+                    <Route
+                        path="/portfolio/illustpea"
+                        element={<IllustPea />}
+                    />
 
                     {/* illustdigital路由 */}
-                    <Route path="illustdigital" element={<IllustDigital />} />
+                    <Route
+                        path="/portfolio/illustdigital"
+                        element={<IllustDigital />}
+                    />
 
                     {/* landingpage路由 */}
-                    <Route path="/landingpage" element={<LandingPage />} />
+                    <Route
+                        path="/portfolio/landingpage"
+                        element={<LandingPage />}
+                    />
 
                     {/* webdesign路由 */}
-                    <Route path="/webdesign" element={<WebDesign />} />
+                    <Route
+                        path="/portfolio/webdesign"
+                        element={<WebDesign />}
+                    />
                 </Routes>
             </ScrollthemeContext.Provider>
         </BrowserRouter>
