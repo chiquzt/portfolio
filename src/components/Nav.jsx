@@ -28,7 +28,7 @@ function Nav() {
                 <div className="nav">
                     <ul className="menu">
                         <li>
-                            <Link to="">About</Link>
+                            <Link to="/portfolio">About</Link>
                         </li>
                         <li>
                             <Link to="/illustration">Illustration</Link>
