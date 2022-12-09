@@ -22,7 +22,7 @@ function Nav() {
                 <div className="nav">
                     <ul className="menu">
                         <li>
-                            <Link to="/portfolio">About</Link>
+                            <Link to="/">About</Link>
                         </li>
                         <li>
                             <Link to="/portfolio/illustration">
@@ -61,37 +61,37 @@ function Nav() {
                 <ul className="menuS">
                     <Close className="close" onClick={closeNav} />
                     <li>
-                        <Link className="optionS" to="">
+                        <Link className="optionS" to="/">
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/illustration">
+                        <Link className="optionS" to="/portfolio/illustration">
                             Illustration
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/animebear">
+                        <Link className="optionS" to="/portfolio/animebear">
                             Animation - W
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/animesocks">
+                        <Link className="optionS" to="/portfolio/animesocks">
                             Animation - U
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/landingpage">
+                        <Link className="optionS" to="/portfolio/landingpage">
                             Landing Page
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/webdesign">
+                        <Link className="optionS" to="/portfolio/webdesign">
                             Web Design
                         </Link>
                     </li>
                     <li>
-                        <Link className="optionS" to="/banner">
+                        <Link className="optionS" to="/portfolio/banner">
                             Banner
                         </Link>
                     </li>
