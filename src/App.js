@@ -30,7 +30,7 @@ function App() {
                     {/* =========================== */}
 
                     {/* home路由 */}
-                    <Route path="" element={<MainPage />} />
+                    <Route path="/portfolio" element={<MainPage />} />
 
                     {/* banner路由 */}
                     <Route path="/portfolio/banner" element={<Banner />} />
