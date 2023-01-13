@@ -193,5 +193,30 @@
     {
         "id": 47,
         "pic": "images/bear/bear47.jpg"
+    },
+    {
+        "id": 48,
+        "pic": "images/bear/bear48.jpg"
+    },
+    {
+        "id": 49,
+        "pic": "images/bear/bear49.jpg"
+    },
+    {
+        "id": 50,
+        "pic": "images/bear/bear50.jpg"
+    },
+    {
+        "id": 51,
+        "pic": "images/bear/bear51.jpg"
+    },
+    {
+        "id": 52,
+        "pic": "images/bear/bear52.jpg"
+    },
+    {
+        "id": 53,
+        "pic": "images/bear/bear53.jpg"
     }
+    
 ]}

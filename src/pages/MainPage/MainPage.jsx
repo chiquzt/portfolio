@@ -9,7 +9,15 @@ function MainPage() {
                     id="main"
                     style={{ backgroundColor: "#efece8" }}
                 >
-                    <div className="name">Abby.Y</div>
+                    <div className="about">
+                        <div className="n-cardwrap">
+                            <div className="n-imgwrap">
+                                <img src={require("./avatar.png")} alt="" />
+                            </div>
+                            <div className="name">Abby.Y</div>
+                            {/* <div className="intro">1996</div> */}
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
