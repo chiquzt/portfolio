@@ -3,9 +3,9 @@
 .illust-cardwrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 80%;
     height: 100vh;
     margin: auto;
     padding: 4% 0;
@@ -35,6 +35,7 @@
         &:hover:after {
             border: 3px solid $secondary;
             transition: 0.3s;
+            cursor: pointer;
         }
         
         .illust-btn {
@@ -96,6 +97,7 @@
     .illust-cardwrap {
         padding-top: 25%;
         display: block;
+        height: fit-content;
 
         .illust-card {
             width: 70vw;

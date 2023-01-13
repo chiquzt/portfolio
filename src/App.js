@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/global.scss";
 
 // 共用components
@@ -22,8 +22,7 @@ import WebDesign from "./pages/WebDesign/WebDesign";
 
 function App() {
     return (
-        <HashRouter basename="/portfolio">
-            {/* basename="/portfolio" */}
+        <BrowserRouter basename="/portfolio">
             <Nav />
             <ScrollthemeContext.Provider value={themes}>
                 <Routes>
@@ -73,7 +72,7 @@ function App() {
                     <Route path="/webdesign" element={<WebDesign />} />
                 </Routes>
             </ScrollthemeContext.Provider>
-        </HashRouter>
+        </BrowserRouter>
     );
 }
 
