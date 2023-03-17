@@ -101,5 +101,29 @@
     {
         "id": 26,
         "pic": "images/cd/cd26.jpg"
+    },
+    {
+        "id": 27,
+        "pic": "images/cd/cd27.jpg"
+    },
+    {
+        "id": 28,
+        "pic": "images/cd/cd28.jpg"
+    },
+    {
+        "id": 29,
+        "pic": "images/cd/cd29.jpg"
+    },
+    {
+        "id": 30,
+        "pic": "images/cd/cd30.jpg"
+    },
+    {
+        "id": 31,
+        "pic": "images/cd/cd31.jpg"
+    },
+    {
+        "id": 32,
+        "pic": "images/cd/cd32.jpg"
     }
 ]}
