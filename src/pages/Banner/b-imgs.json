@@ -108,7 +108,7 @@
     },
     {
         "id": 27,
-        "pic": "images/bn/bn26.jpg"
+        "pic": "images/bn/bn42.jpg"
     },
     {
         "id": 28,
@@ -169,5 +169,17 @@
     {
         "id": 42,
         "pic": "images/bn/bn41.jpg"
+    },
+    {
+        "id": 43,
+        "pic": "images/bn/bn43.jpg"
+    },
+    {
+        "id": 44,
+        "pic": "images/bn/bn44.jpg"
+    },
+    {
+        "id": 45,
+        "pic": "images/bn/bn45.jpg"
     }
 ]}

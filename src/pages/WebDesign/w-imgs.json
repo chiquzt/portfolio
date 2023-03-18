@@ -15,6 +15,22 @@
     {
         "id": 4,
         "pic": "images/web/web04.png"
+    },
+    {
+        "id": 5,
+        "pic": "images/web/web05.png"
+    },
+    {
+        "id": 6,
+        "pic": "images/web/web06.png"
+    },
+    {
+        "id": 7,
+        "pic": "images/web/web07.png"
+    },
+    {
+        "id": 8,
+        "pic": "images/web/web08.png"
     }
     
 ]}
